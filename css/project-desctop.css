@@ -1,0 +1,104 @@
+/*-----------------------------------------------------------media (min-width: 1170px)-----------------------------------*/
+@media (min-width: 1170px) {
+	html {
+		font-size: 14px;
+	}
+	.navbar-collapse {
+		background-color: transparent;
+	}
+	/* header */
+	#header {
+		min-height: 768px;
+	}
+	.headerControls {
+		margin:2rem 0 0 0;
+	}
+	.headerControls img {
+		 margin: 0 0 5rem 0;
+	}
+	/*logo {
+    background-color: transparent;
+    z-index: -100;
+    margin: 0 0 0 100px;
+	}*/
+	.slide {
+			min-height: 768px;
+	}
+	.navbar-default .navbar-nav > li {
+		margin: 0 0 0 1rem;
+	}
+	.navbar {
+		margin: 0 0 10rem 0;
+	}
+	h1 {
+	font-size: 3.42rem;
+	}
+/*-----------------------------------------------------block------------------------*/
+.services .service{
+	width:calc((100% / 3) - 60px);
+}
+
+/*-----------------------------------------------------------How we work------------------------------------*/
+#howWeWork {
+	min-height: 583px;
+}
+
+.plan .items {
+	width: 70%;
+	margin: 0 auto;
+}
+/*-----------------------------------------------------------Testimonials------------------------------------*/
+.testimonials .testimonialsWrapper {
+	width: 50%;
+}
+.testimonials .testimonialsWrapper .quote {
+	width:80%;
+	padding: 1.4rem;
+}
+.testimonials .testimonialsWrapper .logo {
+	margin:10px 0 0 0;
+	min-width:89px;
+	min-height:89px;
+}
+
+.testimonials .testimonialsWrapper  .quote:after {
+	right: 36px;
+}
+/*-----------------------------------------------------------meet the team------------------------------------*/
+	.teamWrapper {
+		width:90%;
+  }
+	.team .speakers .speaker {
+		width:calc(100% / 4);
+		text-align:center;
+	}
+
+	/*-----------------------------------------------------------map------------------------------------*/
+	.mapMarker {
+		width: 35%;
+		top: 20%;
+		left: 10%;
+	}
+	/*---------------------------------------------------------footer------------------------------------*/
+	#footer {
+		padding:42px 0;
+	}
+	#footer .colwrapper {
+		flex-flow: row nowrap;
+		width: 95%;
+		justify-content: center;
+	}
+	#footer .colwrapper ul{
+		display:block;
+		width: 150px;
+		padding:0 5vw;
+		padding-bottom:20px;
+		text-align:left;
+	}
+	#footer .colwrapper .colright {
+		margin-left: 300px;
+	}
+	#footer .colwrapper .colright form{
+		margin:20px 0;
+	}
+}
